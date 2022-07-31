@@ -2,20 +2,18 @@
 import sys
 input = sys.stdin.readline
 
-N = int(input())
-
-pos = [0] * N
-flag = [False] * N
+pos = [0] * 8
+flag = [False] * 8
 
 def put() -> None:
 
-    for i in range(N):
+    for i in range(8):
         print(f'{pos[i]:2}', end='')
     print()
 
 def set(i: int) -> None:
 
-    for j in range(N):
+    for j in range(8):
         if not flag[j]:
             pos[i] = j
             if i == 7:
