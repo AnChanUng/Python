@@ -1,4 +1,4 @@
-# [실습6-1] 버블 정렬 알고리즘 구현하기
+# [실습6-2] 버블 정렬 알고리즘 구현하기
 
 from typing import MutableSequence
 
