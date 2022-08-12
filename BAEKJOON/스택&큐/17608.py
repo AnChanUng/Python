@@ -4,16 +4,13 @@ input = sys.stdin.readline
 
 N = int(input())               # 막대기의 개수
 stack = []
+count = 0
 
-for _ in range(N):
-    stack.append(N)
+for i in range(N):
+  h = int(input())
+  while stack and stack[-1] <= h:
+    stack.pop()
+  stack.append(h)
 
-last = stack[-1]
-count = 1
-
-for i in reversed(range(N)):
-    if stack[i] > last:
-         count += 1
-         last = stack[i]
-
+count = len(stack)
 print(count)

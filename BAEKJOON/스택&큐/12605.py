@@ -2,8 +2,9 @@
 import sys
 input = sys.stdin.readline
 
-N = int(input())                     # 전체 케이스 개수
+N = int(input())                        # 전체 케이스 개수
 
 for i in range(N):
     L = list(input().split())
-    print("Case #%d: "%(i+1), end='', *L[::-1])
+    print("Case #%d: "%(i+1), end='')
+    print(*L[::-1])
