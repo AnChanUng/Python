@@ -11,3 +11,4 @@ elif M // 3 == 3:
     print("fall")
 else:
     print("winter")
+    

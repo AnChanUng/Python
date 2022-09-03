@@ -12,3 +12,4 @@ elif n == "D":
   print("slowly~")
 else:
   print("what?")
+  
