@@ -20,4 +20,4 @@ for t in range(1, T+1):
         e += 1
         num //= 11
 
-    print('#{} {} {} {} {}'.format(t, a, b, c, d, e))
+    print('#{} {} {} {} {} {}'.format(t, a, b, c, d, e))
